@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.bc-description__content p:first-letter {
+  padding-left: 0 !important;
+}
+
+#rkt-acerAspire3A31559 {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+#rkt-acerAspire3A31559 h2, #rkt-acerAspire3A31559 h3, #rkt-acerAspire3A31559 h4, #rkt-acerAspire3A31559 h5, #rkt-acerAspire3A31559 h6, #rkt-acerAspire3A31559 p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: none;
+}
+#rkt-acerAspire3A31559 ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#rkt-acerAspire3A31559 img {
+  display: block;
+  max-width: 100%;
+  opacity: 1;
+  margin: 0;
+}
+#rkt-acerAspire3A31559 img:hover {
+  opacity: 1;
+}
+#rkt-acerAspire3A31559 h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 10px 0;
+  text-align: left;
+}
+@media (max-width: 1023px) {
+  #rkt-acerAspire3A31559 h2 {
+    font-size: -webkit-calc(20px + 20 * (100vw - 320px) / 703);
+    font-size: calc(20px + 20 * (100vw - 320px) / 703);
+  }
+}
+#rkt-acerAspire3A31559 p {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+@media (max-width: 1023px) {
+  #rkt-acerAspire3A31559 p {
+    font-size: -webkit-calc(14px + 4 * (100vw - 320px) / 703);
+    font-size: calc(14px + 4 * (100vw - 320px) / 703);
+  }
+}
+#rkt-acerAspire3A31559 p::first-letter {
+  padding-left: 0;
+}
+#rkt-acerAspire3A31559 ul {
+  margin-left: 25px;
+}
+#rkt-acerAspire3A31559 ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+@media (max-width: 1023px) {
+  #rkt-acerAspire3A31559 ul li {
+    font-size: -webkit-calc(14px + 4 * (100vw - 320px) / 703);
+    font-size: calc(14px + 4 * (100vw - 320px) / 703);
+  }
+}
+
+#rkt-acerAspire3A31559 .bc-description__content p {
+  margin-bottom: 0;
+}
+
+#rkt-acerAspire3A31559 .bc-description__content h3 {
+  text-align: left;
+}
+
+#rkt-acerAspire3A31559 .rkt-acerAspire3A31559__container {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 1006px;
+  overflow: hidden;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+#rkt-acerAspire3A31559 .rkt-acerAspire3A31559__grid-container h2, #rkt-acerAspire3A31559 .rkt-acerAspire3A31559__grid-container p {
+  color: #fff;
+}
+
+#rkt-acerAspire3A31559 .acerAspire3A31559-box__image img {
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+}
+@media (max-width: 1023px) {
+  #rkt-acerAspire3A31559 .acerAspire3A31559-box__image img {
+    -webkit-border-radius: -webkit-calc(10px + 15 * (100vw - 320px) / 703);
+            border-radius: calc(10px + 15 * (100vw - 320px) / 703);
+  }
+}
+#rkt-acerAspire3A31559 .acerAspire3A31559-box__text {
+  padding: 10px 5px;
+}
+#rkt-acerAspire3A31559 .acerAspire3A31559-box__cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 60%;
+  margin: 0 auto;
+}
+#rkt-acerAspire3A31559 .acerAspire3A31559-box__col img {
+  max-height: 150px;
+}
+
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 300px;
+  grid-gap: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile {
+  position: relative;
+  z-index: 5;
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  height: 100%;
+  position: relative;
+  z-index: 6;
+  background-position: center;
+}
+@media (max-width: 1023px) {
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img {
+    -webkit-border-radius: -webkit-calc(10px + 15 * (100vw - 320px) / 703);
+            border-radius: calc(10px + 15 * (100vw - 320px) / 703);
+  }
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img_01 {
+  background-image: url("../img/img02.jpg");
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img_02 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(63, 63, 63, 0)), to(#3F3F3F)), url("../img/img03_1.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%), url("../img/img03_1.jpg");
+  background-image: -o-linear-gradient(top, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%), url("../img/img03_1.jpg");
+  background-image: linear-gradient(180deg, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%), url("../img/img03_1.jpg");
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img_03 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(63, 63, 63, 0)), to(#3F3F3F)), url("../img/img03_2.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%), url("../img/img03_2.jpg");
+  background-image: -o-linear-gradient(top, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%), url("../img/img03_2.jpg");
+  background-image: linear-gradient(180deg, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%), url("../img/img03_2.jpg");
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img_04 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(63, 63, 63, 0)), to(#3F3F3F)), url("../img/img03_3.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%), url("../img/img03_3.jpg");
+  background-image: -o-linear-gradient(top, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%), url("../img/img03_3.jpg");
+  background-image: linear-gradient(180deg, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%), url("../img/img03_3.jpg");
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img_05 {
+  background-image: url("../img/img04.jpg");
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img_06 {
+  background-image: url("../img/img05.jpg");
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img_07 {
+  background-image: url("../img/img06.jpg");
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img_08 {
+  background-image: url("../img/img07.jpg");
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img_09 {
+  background-image: url("../img/img08.jpg");
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img_10 {
+  background-image: url("../img/img09.jpg");
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text {
+  padding: 10px;
+  position: absolute;
+  z-index: 6;
+  -webkit-border-bottom-left-radius: 25px;
+          border-bottom-left-radius: 25px;
+  -webkit-border-bottom-right-radius: 25px;
+          border-bottom-right-radius: 25px;
+}
+@media (max-width: 1023px) {
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text {
+    -webkit-border-bottom-left-radius: -webkit-calc(10px + 15 * (100vw - 320px) / 703);
+            border-bottom-left-radius: calc(10px + 15 * (100vw - 320px) / 703);
+  }
+}
+@media (max-width: 1023px) {
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text {
+    -webkit-border-bottom-right-radius: -webkit-calc(10px + 15 * (100vw - 320px) / 703);
+            border-bottom-right-radius: calc(10px + 15 * (100vw - 320px) / 703);
+  }
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text p span {
+  font-size: 64px;
+  font-weight: 400;
+}
+@media (max-width: 1023px) {
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text p span {
+    font-size: -webkit-calc(22px + 42 * (100vw - 320px) / 703);
+    font-size: calc(22px + 42 * (100vw - 320px) / 703);
+  }
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text_bott {
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(63, 63, 63, 0)), to(#3F3F3F));
+  background: -webkit-linear-gradient(top, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%);
+  background: -o-linear-gradient(top, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%);
+  background: linear-gradient(180deg, rgba(63, 63, 63, 0) 0%, #3F3F3F 100%);
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text_bott h2, #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text_bott p {
+  text-align: left;
+}
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text_center {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin-right: -50%;
+}
+
+#rkt-acerAspire3A31559 .aside__box {
+  display: none;
+}
+
+@media (min-width: 479.98px) {
+  #rkt-acerAspire3A31559 .acerAspire3A31559-box__text {
+    width: 90%;
+    padding: 20px 15px;
+    margin: 0 auto;
+  }
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text {
+    padding: 10px 20px;
+  }
+}
+@media (min-width: 650px) {
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__inner {
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 320px;
+  }
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text {
+    padding: 15px 20px;
+  }
+  #rkt-acerAspire3A31559 .tile__colSpan6 {
+    grid-column: span 6;
+  }
+  #rkt-acerAspire3A31559 .tile__rowSpan2 {
+    grid-row: span 2;
+  }
+  #rkt-acerAspire3A31559 .tile__colSpan2 {
+    grid-column: span 2;
+  }
+  #rkt-acerAspire3A31559 .tile__colSpan3 {
+    grid-column: span 3;
+  }
+}
+@media (min-width: 767.98px) {
+  #rkt-acerAspire3A31559 .rkt-acerAspire3A31559__container h2 {
+    margin: 20px 0;
+  }
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text {
+    padding: 20px 25px;
+  }
+}
+@media (min-width: 1024px) {
+  #rkt-acerAspire3A31559 .rkt-acerAspire3A31559__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #rkt-acerAspire3A31559 .rkt-acerAspire3A31559__container {
+    padding: 0;
+    margin: 0;
+  }
+  #rkt-acerAspire3A31559 .rkt-acerAspire3A31559__container h2 {
+    font-size: 23px;
+  }
+  #rkt-acerAspire3A31559 .rkt-acerAspire3A31559__container p {
+    font-size: 16px;
+  }
+  #rkt-acerAspire3A31559 .rkt-acerAspire3A31559__container ul li {
+    font-size: 16px;
+  }
+  #rkt-acerAspire3A31559 .rkt-acerAspire3A31559__grid-container {
+    padding: 0 20px;
+  }
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-img {
+    -webkit-border-radius: 15px;
+            border-radius: 15px;
+  }
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text {
+    -webkit-border-bottom-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+  }
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text p span {
+    font-size: 40px;
+  }
+  #rkt-acerAspire3A31559 .acerAspire3A31559-box__inner {
+    padding: 0 20px;
+  }
+  #rkt-acerAspire3A31559 .aside__box {
+    display: block;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #9ec898;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 360px;
+       -moz-box-flex: 0;
+        -ms-flex: 0 0 360px;
+            flex: 0 0 360px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  #rkt-acerAspire3A31559 .rkt-acerAspire3A31559__grid-container {
+    padding: 0 10px;
+  }
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__inner {
+    gap: 10px;
+  }
+  #rkt-acerAspire3A31559 .grid-acerAspire3A31559__tile-text {
+    padding: 15px 20px;
+  }
+  #rkt-acerAspire3A31559 .acerAspire3A31559-box__inner {
+    padding: 0 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+
+.bc-description__content p:first-letter
+   padding-left: 0 !important
+
+$bp-mobile: 479.98px
+$bp-tablet: 767.98px
+$bp-hd-desktop: 1024px
+$maxWidthContainer: 1023
+
+@mixin adaptiv-value($property, $startSize, $minSize)
+   $addSize: $startSize - $minSize
+   #{$property}: $startSize + px
+   @media (max-width: #{$maxWidthContainer + px})
+      #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidthContainer - 320}))
+
+#rkt-acerAspire3A31559
+   font-family: 'Roboto', sans-serif
+   width: 100%
+   height: auto
+   position: relative
+   overflow: hidden
+   background: #fff
+   h2, h3, h4, h5, h6, p
+      margin: 0
+      padding: 0
+      line-height: 1.2
+      text-align: left
+      text-transform: none
+   ul
+      margin: 0
+      padding: 0
+      list-style-type: none
+   img
+      display: block
+      max-width: 100%
+      opacity: 1
+      margin: 0
+      &:hover
+         opacity: 1
+   h2
+      @include adaptiv-value("font-size", 40, 20)
+      font-weight: 900
+      margin: 10px 0
+      text-align: left
+   p
+      @include adaptiv-value("font-size", 18, 14)
+      font-weight: 300
+      text-align: center
+      &::first-letter
+         padding-left: 0
+   ul
+      margin-left: 25px
+      li
+         @include adaptiv-value("font-size", 18, 14)
+         margin-bottom: 10px
+
+#rkt-acerAspire3A31559 .bc-description__content p
+   margin-bottom: 0
+
+#rkt-acerAspire3A31559 .bc-description__content h3
+   text-align: left
+
+@mixin fonts($fontSize, $lineHeight)
+   font:
+      size: $fontSize
+   line:
+      height: $lineHeight
+
+@mixin flex-box($justifyContent, $alignItems)
+   display: flex
+   justify-content: $justifyContent
+   align-items: $alignItems
+
+@mixin bg-image($url)
+   background:
+      image: $url
+   background:
+      repeat: no-repeat
+   background:
+      position: top center
+   background:
+      size: cover
+
+@mixin position($position, $zIndex)
+   position: $position
+   z-index: $zIndex
+
+@mixin adaptive-size($property, $minSize, $maxSize, $maxWidth)
+   $size: calc( #{$minSize}px + ($maxSize - $minSize) * ((100vw - 320px)/($maxWidth - 320)))
+   #{$property}: $size
+
+%flex-img
+   position: relative
+   z-index: 5
+   padding-bottom: 58%
+   img
+      width: 100%
+      height: 100%
+      position: absolute
+      z-index: 6
+      object-fit: cover
+      top: 0
+      left: 0
+
+//==============================================================================================================================
+
+#rkt-acerAspire3A31559 .rkt-acerAspire3A31559
+   &__container
+      box-sizing: border-box
+      max-width: 1006px
+      overflow: hidden
+      padding: 0 10px
+      margin: 0 auto
+   &__grid-container
+      h2, p
+         color: #fff
+
+#rkt-acerAspire3A31559 .acerAspire3A31559-box
+   &__image
+      img
+         @include adaptiv-value("border-radius", 25, 10)
+   &__text
+      padding: 10px 5px
+   &__cols
+      display: grid
+      grid-template-columns: repeat(3, 1fr)
+      gap: 10px
+      width: 60%
+      margin: 0 auto
+   &__col
+      img
+         max-height: 150px
+
+#rkt-acerAspire3A31559 .grid-acerAspire3A31559
+   &__inner
+      display: grid
+      grid-template-columns: 1fr
+      grid-auto-rows: 300px
+      grid-gap: 15px
+      width: 100%
+      margin-bottom: 15px
+   &__tile
+      @include position(relative, 5)
+   &__tile-img
+      background-repeat: no-repeat
+      background-size: cover
+      @include adaptiv-value("border-radius", 25, 10)
+      height: 100%
+      @include position(relative, 6)
+      background-position: center
+      &_01
+         background-image: url("../img/img02.jpg")
+      &_02
+         background-image: linear-gradient(180deg, rgba(63, 63, 63, 0.00) 0%, #3F3F3F 100%), url("../img/img03_1.jpg")
+      &_03
+         background-image: linear-gradient(180deg, rgba(63, 63, 63, 0.00) 0%, #3F3F3F 100%), url("../img/img03_2.jpg")
+      &_04
+         background-image: linear-gradient(180deg, rgba(63, 63, 63, 0.00) 0%, #3F3F3F 100%), url("../img/img03_3.jpg")
+      &_05
+         background-image: url("../img/img04.jpg")
+      &_06
+         background-image: url("../img/img05.jpg")
+      &_07
+         background-image: url("../img/img06.jpg")
+      &_08
+         background-image: url("../img/img07.jpg")
+      &_09
+         background-image: url("../img/img08.jpg")
+      &_10
+         background-image: url("../img/img09.jpg")
+   &__tile-text
+      padding: 10px
+      @include position(absolute, 6)
+      @include adaptiv-value("border-bottom-left-radius", 25, 10)
+      @include adaptiv-value("border-bottom-right-radius", 25, 10)
+      p
+         span
+            @include adaptiv-value("font-size", 64, 22)
+            font-weight: 400
+      &_bott
+         bottom: 0
+         background: linear-gradient(180deg, rgba(63, 63, 63, 0.00) 0%, #3F3F3F 100%)
+         h2, p
+            text-align: left
+      &_center
+         left: 50%
+         top: 50%
+         transform: translate(-50%, -50%)
+         margin-right: -50%
+
+//======================================================================================================================            
+#rkt-acerAspire3A31559 .aside
+   &__box
+      display: none
+
+//=========================================================================================================================================
+@media (min-width: $bp-mobile)
+   #rkt-acerAspire3A31559 .acerAspire3A31559-box
+      &__text
+         width: 90%
+         padding: 20px 15px
+         margin: 0 auto
+   #rkt-acerAspire3A31559 .grid-acerAspire3A31559
+      &__tile-text
+         padding: 10px 20px
+
+@media (min-width: 650px)
+   #rkt-acerAspire3A31559 .grid-acerAspire3A31559
+      &__inner
+         grid-template-columns: repeat(6, 1fr)
+         grid-auto-rows: 320px
+      &__tile-text
+         padding: 15px 20px
+   #rkt-acerAspire3A31559 .tile
+      &__colSpan6
+         grid-column: span 6
+      &__rowSpan2
+         grid-row: span 2
+      &__colSpan2
+         grid-column: span 2
+      &__colSpan3
+         grid-column: span 3
+
+@media (min-width: $bp-tablet)
+   #rkt-acerAspire3A31559 .rkt-acerAspire3A31559
+      &__container
+         h2
+            margin: 20px 0
+   #rkt-acerAspire3A31559 .grid-acerAspire3A31559
+      &__tile-text
+         padding: 20px 25px
+
+@media (min-width: $bp-hd-desktop)
+   #rkt-acerAspire3A31559 .rkt-acerAspire3A31559
+      &__wrapper
+         display: flex
+         justify-content: center
+      &__container
+         padding: 0
+         margin: 0
+         h2
+            font-size: 23px
+         p
+            font-size: 16px
+         ul
+            li
+               font-size: 16px
+      &__grid-container
+         padding: 0 20px
+   #rkt-acerAspire3A31559 .grid-acerAspire3A31559
+      &__tile-img
+         border-radius: 15px
+      &__tile-text
+         border-bottom-left-radius: 15px
+         border-bottom-right-radius: 15px
+         p
+            span
+               font-size: 40px
+   #rkt-acerAspire3A31559 .acerAspire3A31559-box
+      &__inner
+         padding: 0 20px
+
+   #rkt-acerAspire3A31559 .aside
+      &__box
+         display: block
+         box-sizing: border-box
+         background-color: #9ec898
+         flex: 0 0 360px
+//===============================================================================================================
+
+@media screen and (min-width: 1024px) and (max-width: 1200px)
+   #rkt-acerAspire3A31559 .rkt-acerAspire3A31559
+      &__grid-container
+         padding: 0 10px
+   #rkt-acerAspire3A31559 .grid-acerAspire3A31559
+      &__inner
+         gap: 10px
+      &__tile-text
+         padding: 15px 20px
+   #rkt-acerAspire3A31559 .acerAspire3A31559-box
+      &__inner
+         padding: 0 10px
